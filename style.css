@@ -1,0 +1,47 @@
+.content{
+	text-align: center;
+}
+
+.content .gif{
+	width: 40%;
+	min-width: 250px;
+}
+
+.crypto .title{
+	display: block;
+	text-align: center;
+}
+
+.crypto .wallets{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.crypto .wallet{
+	flex: 1;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.crypto .wallet .icon{
+	width: 100px;
+	max-height: 100px;
+	margin: 20px auto;
+}
+
+.crypto .wallet .address{
+	font-size: 18px;
+}
+
+.crypto .mining{
+	display: none;
+}
+
+.certificates{
+	display: flex;
+}
+
+.certificates .certificate{
+	flex: 1;
+}
