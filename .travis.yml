@@ -1,5 +1,8 @@
 notifications:
   email: false
   
+script:
+  - echo "Deploying"
+
 after_success:
     - curl --ftp-create-dirs -T * -u $FTP_USER:$FTP_PASSWORD ftp://ftp.cluster021.hosting.ovh.net:21/www/
