@@ -1,0 +1,80 @@
+.hidden{
+    display: none !important;
+}
+.header {
+    text-align: center;
+}
+.header .social a {
+    text-decoration: none;
+}
+.header .social img {
+    width: 30px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.certificate h3 {
+    text-align: center;
+}
+.crypto,
+.certificate {
+    flex: 1;
+    display: none;
+    margin: 0 10px;
+}
+.crypto .title {
+    display: block;
+    text-align: center;
+}
+.crypto .wallets {
+    padding-left: 0;
+}
+.crypto .wallet {
+    display: flex;
+    margin: 5px 0;
+    min-width: 50px;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgrey;
+}
+.crypto .wallet .name {
+    padding: 15px 0;
+    flex: 2;
+    font-size: 15px;
+    font-weight: bold;
+}
+.crypto .wallet .icon {
+    flex: 1;
+    height: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+.crypto .wallet .icon img {
+    height: 100%;
+}
+.crypto .wallet .tag {
+    padding: 15px 0;
+    flex: 3;
+    font-size: 15px;
+}
+.crypto .wallet .tag b {
+    font-weight: bold;
+    display: block;
+    word-wrap:break-word;
+}
+.crypto .wallet .address {
+    padding: 15px 0;
+    flex: 10;
+    font-size: 13px;
+    word-wrap:break-word;
+}
+.crypto .mining {
+    display: none;
+}
+.certificates {
+    display: flex;
+}
+.certificates .certificate {
+    flex: 1;
+}
